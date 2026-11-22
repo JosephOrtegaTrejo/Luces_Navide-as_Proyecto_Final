@@ -56,7 +56,7 @@ jingle_bells = [
     (RE, 0.50, led_verde),
     (SOL, 0.60, led_amarillo)
 ]
-
+#definir función para apagar todos los LEDs
 def apagar_todo():
     led_amarillo.value(0)
     led_rojo.value(0)
