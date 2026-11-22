@@ -1,6 +1,6 @@
 from machine import Pin, ADC, PWM
 from Bluetooth_control import ControlBluetooth  # Tu archivo de Bluetooth
-from prueba_LCD import ControlLCD  # Tu archivo de la pantalla LCD
+from Codigo_pantalla import ControlLCD  # Tu archivo de la pantalla LCD
 import time
 
 # 1. Configurar los 3 canales de LEDs (según tu esquema)[cite: 8]
