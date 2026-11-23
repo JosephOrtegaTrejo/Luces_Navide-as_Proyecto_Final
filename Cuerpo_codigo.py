@@ -26,6 +26,10 @@ RE = 294
 MI = 330
 FA = 349
 SOL = 392
+SOL_BAJO = 196
+LA_BAJO = 220
+SI_BAJO = 247
+LA = 440
 
 # Melodía completa: (Nota, Duración en segundos, LED que enciende)
 jingle_bells = [
@@ -52,6 +56,34 @@ jingle_bells = [
 
     (SOL, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.25, led_amarillo),
     (RE, 0.25, led_rojo), (DO, 0.80, led_verde)
+
+# --- ESTROFA ("Dashing through the snow, in a one-horse open sleigh...") ---
+    (SOL_BAJO, 0.25, led_amarillo), (MI, 0.25, led_rojo), (RE, 0.25, led_verde),
+    (DO, 0.25, led_amarillo), (SOL_BAJO, 0.75, led_rojo),
+    (SOL_BAJO, 0.15, led_verde), (SOL_BAJO, 0.15, led_amarillo),
+
+    (SOL_BAJO, 0.25, led_rojo), (MI, 0.25, led_verde), (RE, 0.25, led_amarillo),
+    (DO, 0.25, led_rojo), (LA_BAJO, 0.80, led_verde),
+
+    (LA_BAJO, 0.25, led_amarillo), (FA, 0.25, led_rojo), (MI, 0.25, led_verde),
+    (RE, 0.25, led_amarillo), (SI_BAJO, 0.80, led_rojo),
+
+    (SOL, 0.25, led_verde), (SOL, 0.25, led_amarillo), (FA, 0.25, led_rojo),
+    (RE, 0.25, led_verde), (MI, 0.80, led_amarillo),
+
+    # --- ESTROFA SEGUNDA MITAD ("O'er the fields we go, laughing all the way...") ---
+    (SOL_BAJO, 0.25, led_rojo), (MI, 0.25, led_verde), (RE, 0.25, led_amarillo),
+    (DO, 0.25, led_rojo), (SOL_BAJO, 0.80, led_verde),
+
+    (SOL_BAJO, 0.25, led_amarillo), (MI, 0.25, led_rojo), (RE, 0.25, led_verde),
+    (DO, 0.25, led_amarillo), (LA_BAJO, 0.80, led_rojo),
+
+    (LA_BAJO, 0.25, led_verde), (FA, 0.25, led_amarillo), (MI, 0.25, led_rojo),
+    (RE, 0.25, led_verde), (SOL, 0.25, led_amarillo), (SOL, 0.25, led_rojo),
+    (SOL, 0.25, led_verde), (SOL, 0.25, led_amarillo),
+
+    (LA, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.25, led_amarillo),
+    (RE, 0.25, led_rojo), (DO, 0.90, led_verde)
 ]
 
 
