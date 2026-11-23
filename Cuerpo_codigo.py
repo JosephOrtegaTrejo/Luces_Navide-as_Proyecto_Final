@@ -57,7 +57,7 @@ jingle_bells = [
     (SOL, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.25, led_amarillo),
     (RE, 0.25, led_rojo), (DO, 0.80, led_verde)
 
-# --- ESTROFA ("Dashing through the snow, in a one-horse open sleigh...") ---
+    # --- ESTROFA ("Dashing through the snow, in a one-horse open sleigh...") ---
     (SOL_BAJO, 0.25, led_amarillo), (MI, 0.25, led_rojo), (RE, 0.25, led_verde),
     (DO, 0.25, led_amarillo), (SOL_BAJO, 0.75, led_rojo),
     (SOL_BAJO, 0.15, led_verde), (SOL_BAJO, 0.15, led_amarillo),
