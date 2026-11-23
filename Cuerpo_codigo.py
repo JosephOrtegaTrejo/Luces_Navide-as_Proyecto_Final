@@ -30,6 +30,11 @@ SOL_BAJO = 196
 LA_BAJO = 220
 SI_BAJO = 247
 LA = 440
+FA_SOST  = 370
+SOL_SOST = 415
+LA_SOST  = 466
+SI       = 494
+DO_ALTO  = 523
 
 # Melodía completa: (Nota, Duración en segundos, LED que enciende)
 jingle_bells = [
@@ -82,7 +87,41 @@ jingle_bells = [
     (SOL, 0.25, led_verde), (SOL, 0.25, led_amarillo),
 
     (LA, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.25, led_amarillo),
-    (RE, 0.25, led_rojo), (DO, 0.90, led_verde)
+    (RE, 0.25, led_rojo), (DO, 0.90, led_verde),
+
+    # --- ESTROFA ("Con mi burrito sabanero voy camino de Belén...") ---
+    (DO, 0.25, led_amarillo), (FA, 0.25, led_rojo), (FA, 0.25, led_verde),
+    (FA, 0.25, led_amarillo), (SOL, 0.25, led_rojo), (LA, 0.25, led_verde),
+    (LA, 0.25, led_amarillo), (LA_SOST, 0.25, led_rojo), (LA, 0.50, led_verde),
+
+    (SOL, 0.25, led_amarillo), (FA, 0.25, led_rojo), (SOL, 0.25, led_verde),
+    (LA, 0.25, led_amarillo), (SOL, 0.25, led_rojo), (FA, 0.25, led_verde),
+    (MI, 0.25, led_amarillo), (RE, 0.25, led_rojo), (DO, 0.50, led_verde),
+
+    # --- REPETICIÓN ESTROFA ("Si me ven, si me ven, voy camino de Belén...") ---
+    (DO, 0.25, led_rojo), (FA, 0.25, led_verde), (FA, 0.25, led_amarillo),
+    (FA, 0.25, led_rojo), (SOL, 0.25, led_verde), (LA, 0.25, led_amarillo),
+    (LA, 0.25, led_rojo), (LA_SOST, 0.25, led_verde), (LA, 0.50, led_amarillo),
+
+    (SOL, 0.25, led_rojo), (FA, 0.25, led_verde), (SOL, 0.25, led_amarillo),
+    (LA, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.25, led_amarillo),
+    (MI, 0.25, led_rojo), (SOL, 0.25, led_verde), (FA, 0.60, led_amarillo),
+
+    # --- ESTRIBILLO ("Tuki tuki tuki tuki, tuki tuki tuki ta...") ---
+    (LA, 0.20, led_verde), (LA, 0.20, led_amarillo), (LA, 0.20, led_rojo),
+    (LA, 0.20, led_verde), (LA_SOST, 0.25, led_amarillo), (LA, 0.25, led_rojo),
+    (SOL, 0.40, led_verde),
+
+    (SOL, 0.20, led_amarillo), (SOL, 0.20, led_rojo), (SOL, 0.20, led_verde),
+    (SOL, 0.20, led_amarillo), (LA, 0.25, led_rojo), (SOL, 0.25, led_verde),
+    (FA, 0.45, led_amarillo),
+
+    # --- CIERRE ("Apúrate mi burrito que ya vamos a llegar...") ---
+    (LA, 0.20, led_rojo), (LA, 0.20, led_verde), (LA, 0.20, led_amarillo),
+    (LA, 0.20, led_rojo), (LA_SOST, 0.25, led_verde), (LA, 0.25, led_amarillo),
+    (SOL, 0.25, led_rojo), (LA, 0.25, led_verde), (LA_SOST, 0.25, led_amarillo),
+    (DO_ALTO, 0.30, led_rojo), (LA_SOST, 0.25, led_verde), (LA, 0.25, led_amarillo),
+    (SOL, 0.30, led_rojo), (FA, 0.70, led_verde)
 ]
 
 
